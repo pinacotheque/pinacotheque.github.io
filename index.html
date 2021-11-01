@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My first web page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="max-width">
+          <div class="logo"><a href="#home">MyPage.</a></div>
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- home section -->
+      <section class="home" id="home">
+        <div class="max-width">
+          <div class="home-content">
+            <div class="text1">Hello! It's Gamze here.</div>
+            <div class="text2">I'm an engineer</div>
+            <div class="text3">and I'm trying to create a website.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section -->
+      <section class="about" id="about">
+        <div class="max-width">
+          <h2 class="title">About Me</h2>
+          <div class="about-content">
+            <div class="column left">
+              <img src="images/gamse.JPG" alt="" />
+            </div>
+            <div class="column right">
+              <p>
+                My aspire for coding started with the Python course I took from
+                my uni's IEEE team. As I wrote my first code and saw it's
+                working, I became more interested to the computer
+                <span id="text">
+                  science area. While I was studying, an idea popped into my
+                  head: how about dedicating yourself and working so hard on
+                  this field, even be able to find a job and eventually head in
+                  to the direction I desire. So hopefully with this idea, my
+                  journey has begun.
+                </span>
+                <!-- <div class="moretext"> -->
+                <a onclick="myfunction()" id="more">Read less</a>
+                <!-- </div> -->
+              </p>
+              <div class="downloadtext">
+                <a href="pdffile/gamze.pdf"> Download My CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills section  -->
+      <section class="skills" id="skills">
+        <div class="max-width">
+          <h2 class="title">My Skills</h2>
+          <div class="skills-content">
+            <div class="box">
+              <div class="group">
+                <div class="header">
+                  <img src="images/com.png" alt="compicon" />
+                  <div class="text1">Computer</div>
+                </div>
+                <ul class="unit">
+                  <li><h3>Python</h3></li>
+                  <li><h3>C</h3></li>
+                  <li><h3>AutoCad</h3></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="group">
+                <div class="header">
+                  <img src="images/eart.png" alt="langicon" />
+                  <div class="text1">Language</div>
+                </div>
+                <ul class="unit">
+                  <li><h3>English-Full Professional Proficiency</h3></li>
+                  <li><h3>French-Professional Working Proficiency</h3></li>
+                  <li><h3>German-Elementary Proficiency</h3></li>
+                  <li><h3>Italian-Elementary Proficiency</h3></li>
+                </ul>
+              </div>
+            </div>
+            <div class="box">
+              <div class="group">
+                <div class="header">
+                  <img src="images/other.png" alt="othicon" />
+                  <div class="text1">Other</div>
+                </div>
+                <ul class="unit">
+                  <li><h3>Teamwork</h3></li>
+                  <li><h3>Adaptability</h3></li>
+                  <li><h3>Problem solving</h3></li>
+                  <li><h3>Hunger for knowledge</h3></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section  -->
+      <section class="contact" id="contact">
+        <div class="max-width">
+          <h2 class="title">Contact</h2>
+          <div class="contact-content">
+            <div class="column left">
+              <div class="text1">My accounts:</div>
+              <div class="icons">
+                <div class="row">
+                  <img src="images/linkedin.png" alt="linkedinimg" />
+                  <div class="link">
+                    <a href="https://www.linkedin.com/in/gamzeguneri/">
+                      Linkedin</a
+                    >
+                  </div>
+                </div>
+
+                <div class="row">
+                  <img src="images/github.png" alt="githubimg" />
+                  <div class="link">
+                    <a href="https://github.com/pinacotheque">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column right">
+              <div class="text1">Mobile:</div>
+              <h2>+905426169528</h2>
+              <div class="text1">E-mail:</div>
+              <h2>gamzegunerig@gmail.com</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  height: max-content;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 50px;
+  margin: auto;
+}
+
+/* navbar */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 15px 0;
+  background: rgb(241, 233, 241);
+  font-family: "Antic Slab", serif;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: orangered;
+  font-size: 30px;
+  font-weight: 600;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  color: salmon;
+  font-size: 18px;
+  font-weight: 350;
+  margin-left: 15px;
+  transition: color 0.2s ease;
+}
+.navbar .menu li a:hover {
+  color: seashell;
+}
+
+.home {
+  display: flex;
+  background: url(/images/boat.jpeg) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  min-height: 500px;
+  font-family: "Antic Slab", serif;
+}
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+.home .home-content {
+  font-size: 45px;
+  text-shadow: 2px 2px 2px darkslategray;
+}
+.home .home-content .text1 {
+  color: red;
+}
+
+/* about */
+
+.about {
+  font-family: "Antic Slab", serif;
+  height: 100vh;
+}
+
+.about .title {
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.about .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .about-content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 200px;
+}
+
+.about .about-content .right {
+  width: 50%;
+  text-align: justify;
+  font-weight: 600;
+  font-size: 18px;
+}
+.about .about-content .right a {
+  color: rgb(165, 183, 201);
+  cursor: pointer;
+}
+.about .about-content .right .downloadtext {
+  display: inline-flex;
+  background: rgb(175, 158, 175);
+  font-size: 20px;
+  font-weight: 1000;
+  padding: 12px 20px;
+  margin-top: 25px;
+  border-radius: 5px;
+  transition: color 0.3s ease;
+}
+.about .about-content .right .downloadtext a {
+  color: mintcream;
+}
+
+.about .about-content .right .downloadtext:hover {
+  background: lightgray;
+}
+
+/* skills */
+
+.skills {
+  font-family: "Antic Slab", serif;
+  background: rgb(251, 255, 253);
+  height: 100vh;
+}
+.skills .title {
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  font-family: "Antic Slab", serif;
+}
+
+.skills .skills-content .box {
+  width: 33%;
+  padding-top: 80px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+
+.skills .skills-content .box .group {
+  display: inline-block;
+  object-position: center;
+  margin: auto;
+}
+
+.skills .skills-content .header {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  padding: 12px 20px;
+  align-items: center;
+  object-position: center;
+  background: lavender;
+  border-radius: 20px;
+  margin: auto;
+}
+.skills .skills-content img {
+  height: 50px;
+  width: 50px;
+  align-items: baseline;
+  object-fit: cover;
+}
+.skills .skills-content .header .text1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: indianred;
+  margin-left: 12px;
+  align-items: center;
+  object-fit: cover;
+}
+.skills .skills-content .unit {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 0px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .unit li {
+  display: flex;
+  padding: 10px 0px;
+  width: fit-content;
+  text-align: center;
+  height: fit-content;
+  align-items: center;
+  margin: auto;
+}
+
+/* contact */
+section {
+  padding: 100px 0;
+}
+
+.contact {
+  font-family: "Antic Slab", serif;
+  background: url(images/gogh.jpeg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.contact .title {
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  font-family: "Antic Slab", serif;
+}
+.contact .contact-content {
+  display: flex;
+  padding: 80px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  text-align: center;
+  justify-content: space-between;
+}
+.contact .contact-content .left .text1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(71, 87, 107);
+}
+
+.contact .contact-content .left img {
+  height: 50px;
+  width: 50px;
+  align-items: baseline;
+  object-fit: cover;
+  border-radius: 200px;
+  display: inline-block;
+}
+.contact .contact-content .left a {
+  display: flex;
+  text-align: justify;
+  color: palevioletred;
+  font-size: 20px;
+  font-weight: 1000;
+  padding: 50px 20px;
+  transition: color 0.3s ease;
+}
+.contact .contact-content .left a:hover {
+  color: seashell;
+}
+
+.contact .contact-content .row {
+  display: inline-flex;
+  height: fit-content;
+  align-items: center;
+  padding-left: 20px;
+}
+.contact .contact-content .right .text1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  color: rgb(71, 87, 107);
+}
+.contact .contact-content .right {
+  width: 50%;
+  justify-content: space-between;
+  text-align: justify;
+  padding-left: 120px;
+}
